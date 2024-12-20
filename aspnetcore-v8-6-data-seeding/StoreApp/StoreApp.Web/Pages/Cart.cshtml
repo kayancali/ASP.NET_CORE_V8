@@ -1,0 +1,58 @@
+﻿@page
+@model CartModel
+
+<h2>Alışveriş Sepeti</h2>
+
+        @if(Model?.Cart?.Items.Count() == 0){
+            <div class="alert alert-warning">Sepet Boş</div>
+
+        }
+        else{
+            <table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Quantity</th>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Total</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+      
+        @foreach(var item in Model?.Cart?.Items ?? Enumerable.Empty<CartItem>())
+            {
+                <tr>
+                    <td>@item.Quantity</td>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Product.Price</td>
+                    <td>
+                        @((item.Quantity * item.Product.Price).ToString()) ₺
+                    </td>
+                    <td>
+                        <form method="post" asp-page-handler="Delete" >
+                            <input type="hidden" name="Id" value="@item.Product.Id" >
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Total:</td>
+            <td>
+                @Model?.Cart?.CalculateTotal() ₺
+            </td>
+        </tr>
+    </tfoot>
+            </table> 
+        }
+
+<div>
+    <a href="/" class="btn btn-primary">Ana Sayfa</a>
+    <a href="/Order/Checkout" class="btn btn-primary">Siparişi Tamamla</a>
+</div>
+ 

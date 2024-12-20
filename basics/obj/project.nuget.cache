@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "GqlS10kj/qf1izsCrQfc9KcFYldbW3m+HRVHeLfnOSqTH0ZhC6tsjwZYxHq+Jf0bDTSUWzMsG6ZMR6d0pM98kg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kayan\\OneDrive\\Desktop\\aspnetcore\\basics\\basics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kayan\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\kayan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\kayan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\kayan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

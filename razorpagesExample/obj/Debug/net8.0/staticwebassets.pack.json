@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kayan\\OneDrive\\Desktop\\aspnetcore\\razorpagesExample\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\razorpagesExample.bundle.scp.css",
+      "PackagePath": "staticwebassets\\razorpagesExample.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kayan\\OneDrive\\Desktop\\aspnetcore\\razorpagesExample\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kayan\\OneDrive\\Desktop\\aspnetcore\\razorpagesExample\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kayan\\OneDrive\\Desktop\\aspnetcore\\razorpagesExample\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kayan\\OneDrive\\Desktop\\aspnetcore\\razorpagesExample\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kayan\\OneDrive\\Desktop\\aspnetcore\\razorpagesExample\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kayan\\OneDrive\\Desktop\\aspnetcore\\razorpagesExample\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kayan\\OneDrive\\Desktop\\aspnetcore\\razorpagesExample\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.razorpagesExample.props",
+      "PackagePath": "build\\razorpagesExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.razorpagesExample.props",
+      "PackagePath": "buildMultiTargeting\\razorpagesExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.razorpagesExample.props",
+      "PackagePath": "buildTransitive\\razorpagesExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.razorpagesExample.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

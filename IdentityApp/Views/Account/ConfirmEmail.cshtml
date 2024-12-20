@@ -1,0 +1,8 @@
+<h1>Hesap Onayı</h1>
+
+<div>
+    @if (TempData["ConfirmationUrl"] != null)
+    {
+        <p>Onay URL'niz: <a href="@TempData["ConfirmationUrl"]">@TempData["ConfirmationUrl"]</a></p>
+    }
+</div>

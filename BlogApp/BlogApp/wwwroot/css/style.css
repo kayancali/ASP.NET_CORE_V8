@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(207, 210, 212);
+}
+
+a{
+    text-decoration: none;
+}
+
+.avatar{
+    width:  7rem;
+    height: 5rem;
+}
+
+
+.message-box {
+    border: 1px solid #ccc; /* Kenarlık */
+    padding: 15px; /* İç boşluk */
+    border-radius: 15px; /* Oval kenarlar */
+    background-color: #f9f9f9; /* Arka plan rengi */
+
+    margin: 20px 0; /* Ortaya yerleştirme */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    width: 100%
+}
